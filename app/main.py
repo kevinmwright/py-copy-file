@@ -1,7 +1,7 @@
 
 def copy_file(command: str) -> None:
     tokens = command.split()
-    if len(tokens) < 3:
+    if len(tokens) == 3:
         return
     if tokens[0] != "cp":
         return
